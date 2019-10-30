@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{498A29EF-BEBB-40B3-90D6-30DDF73EA906}</ProjectGuid>
+    <ProjectGuid>{ADEE18DC-6176-4D94-9316-723390187BFA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ImpactaAspNet.Capitulo001.Variaveis</RootNamespace>
-    <AssemblyName>ImpactaAspNet.Capitulo001.Variaveis</AssemblyName>
+    <RootNamespace>AspNet.Cap001.Troco</RootNamespace>
+    <AssemblyName>AspNet.Cap001.Troco</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,11 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="VariaveisForm.cs">
+    <Compile Include="TrocoForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="VariaveisForm.Designer.cs">
-      <DependentUpon>VariaveisForm.cs</DependentUpon>
+    <Compile Include="TrocoForm.Designer.cs">
+      <DependentUpon>TrocoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,8 +62,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="VariaveisForm.resx">
-      <DependentUpon>VariaveisForm.cs</DependentUpon>
+    <EmbeddedResource Include="TrocoForm.resx">
+      <DependentUpon>TrocoForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

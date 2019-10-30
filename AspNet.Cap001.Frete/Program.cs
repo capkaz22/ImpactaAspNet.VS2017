@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ImpactaAspNet.Capitulo001.Variaveis
+namespace AspNet.Cap001.Frete
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace ImpactaAspNet.Capitulo001.Variaveis
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VariaveisForm());
+            Application.Run(new freteForm());
         }
     }
 }

@@ -5,6 +5,20 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpactaAspNet.Capitulo001.Variaveis", "ImpactaAspNet.Capitulo001.Variaveis\ImpactaAspNet.Capitulo001.Variaveis.csproj", "{498A29EF-BEBB-40B3-90D6-30DDF73EA906}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Cap001.Troco", "AspNet.Cap001.Troco\AspNet.Cap001.Troco.csproj", "{ADEE18DC-6176-4D94-9316-723390187BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Cap001.Frete", "AspNet.Cap001.Frete\AspNet.Cap001.Frete.csproj", "{A2490D79-E82B-4989-A9BC-6A292C218EB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Cap001.Repeticao.Testes", "AspNet.Cap001.Repeticao.Testes\AspNet.Cap001.Repeticao.Testes.csproj", "{276A13D9-0504-4A8C-95DE-D382965BEC4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Cap001.VetorColecoes.Testes", "AspNet.Cap001.VetorColecoes.Testes\AspNet.Cap001.VetorColecoes.Testes.csproj", "{4E49AF61-E32B-499E-9AE7-70FB16963866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Dominio", "Oficina.Dominio\Oficina.Dominio.csproj", "{13D9B64A-845B-4EF6-8FE1-87EE612D679E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oficina", "Oficina", "{51A1C84C-D016-4A20-9C1F-C1E265B08EA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Repositorios.SistemaArquivos", "Oficina.Repositorios.SistemaArquivos\Oficina.Repositorios.SistemaArquivos.csproj", "{CAE3A4DF-251B-4B8D-BF4F-520BE0BB5080}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +29,37 @@ Global
 		{498A29EF-BEBB-40B3-90D6-30DDF73EA906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{498A29EF-BEBB-40B3-90D6-30DDF73EA906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{498A29EF-BEBB-40B3-90D6-30DDF73EA906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEE18DC-6176-4D94-9316-723390187BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEE18DC-6176-4D94-9316-723390187BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEE18DC-6176-4D94-9316-723390187BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEE18DC-6176-4D94-9316-723390187BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2490D79-E82B-4989-A9BC-6A292C218EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2490D79-E82B-4989-A9BC-6A292C218EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2490D79-E82B-4989-A9BC-6A292C218EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2490D79-E82B-4989-A9BC-6A292C218EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276A13D9-0504-4A8C-95DE-D382965BEC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276A13D9-0504-4A8C-95DE-D382965BEC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276A13D9-0504-4A8C-95DE-D382965BEC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276A13D9-0504-4A8C-95DE-D382965BEC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E49AF61-E32B-499E-9AE7-70FB16963866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E49AF61-E32B-499E-9AE7-70FB16963866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E49AF61-E32B-499E-9AE7-70FB16963866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E49AF61-E32B-499E-9AE7-70FB16963866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D9B64A-845B-4EF6-8FE1-87EE612D679E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D9B64A-845B-4EF6-8FE1-87EE612D679E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D9B64A-845B-4EF6-8FE1-87EE612D679E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D9B64A-845B-4EF6-8FE1-87EE612D679E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAE3A4DF-251B-4B8D-BF4F-520BE0BB5080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE3A4DF-251B-4B8D-BF4F-520BE0BB5080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE3A4DF-251B-4B8D-BF4F-520BE0BB5080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE3A4DF-251B-4B8D-BF4F-520BE0BB5080}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13D9B64A-845B-4EF6-8FE1-87EE612D679E} = {51A1C84C-D016-4A20-9C1F-C1E265B08EA5}
+		{CAE3A4DF-251B-4B8D-BF4F-520BE0BB5080} = {51A1C84C-D016-4A20-9C1F-C1E265B08EA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A3E1AEE2-6261-45E2-B197-8B5212763738}
